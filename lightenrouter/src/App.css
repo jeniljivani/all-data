@@ -1,0 +1,534 @@
+* {
+     margin: 0px;
+     padding: 0px;
+}
+ul li ,li  {
+     list-style-type: none;
+}
+.a-center {
+     align-items: center;
+}
+a {
+     cursor: pointer;
+}
+.topnev {
+     background-color: #FFC221;
+     padding: 10px 0px ;
+     /* align-items: center !important; */
+}
+.topnev ul li a {
+     color: #000;
+     width: 25px;
+     height: 25px;
+     float: left;
+     text-align: center;
+     /* line-height: 25px; */
+     border-radius: 100%;
+     font-size: 18px;
+}
+
+@media(max-width: 575px) {
+.logo {
+   
+     width: 200px;
+     margin: auto;
+     height: 60px;
+     }
+}
+.header
+{
+     align-items: center;
+}
+.header .manu .link
+{
+     color: black;
+     text-decoration: none;
+}
+.header .manu .link:hover
+{
+     color: #f9be20;
+}
+.header img {
+     width: 100%;
+}
+.header .btn a {
+     background: #ffc221;
+     color: black;
+     padding: 7px 41px;
+     display: block;
+     /* margin-top: 18px; */
+     border-radius: 5px;
+     display: inline-block;
+}
+.header .btn a:hover
+{
+     color: white !important;
+}
+.navbar-toggler:focus {
+     /* border: none; */
+     box-shadow: none;
+     position: relative;
+}
+
+/* ================================= slider star ============================== */
+.slider .contan {
+     position: relative;
+}
+.slider .text {
+     position: absolute;
+     top: 50%;
+     left: 15%;
+     transform: translateY(-50%);
+}
+.slider .text h1 {
+     font-size: 85px;
+     line-height: 85px;
+}
+.slider .text .b {
+     color: #FFC221;     
+}
+.slider .text .black_bold ,.yellow_bold {
+ font-weight: bold;
+}
+@media (max-width: 766px) {.slider .text h1 {
+     padding-top: 0px;
+     font-size: 45px;
+     line-height: 36px;
+     }
+}
+@media (max-width: 1199px) {.slider .text h1 {
+     padding-top: 0px;
+     font-size: 36px;
+     line-height: 43px;
+     }
+}
+
+.slider .text .btn a {
+     background: #ffc221;
+     color: #fff;
+     font-size: 17px;
+     display: block;
+     border-radius: 30px 0px 30px 30px;
+     text-align: center;
+     text-decoration: none;
+     transition: 0.3s;
+}
+.slider .text .btn a:hover {
+     background-color: #000;
+     color: white;
+}
+/* =================== slider END ============================== */
+/* =============== WHY CHOOSE US START  START ================== */
+.why
+{
+     padding-top: 85px;
+     padding-bottom: 60px;
+}
+.why span , .service span , .our span
+{
+     color: #FFC221;
+}
+.line
+{
+     width: 120px !important;
+     height: 10px !important;
+     background-color: #000000 ;
+     opacity: 1;
+}
+.h-text
+{
+     margin-top: 27px;
+     font-size: 28px;
+     margin-bottom: 0px;
+}
+.choose
+{
+     background-color: #FFC221;
+}
+.choose .cont
+{
+     padding: 40px 20px;
+     background-color: white;
+     box-shadow: 3px 3px 10px #E9E9E9 , -2px 0px 5px #E9E9E9;
+}
+.choose .cont .choose-box h3
+{
+     padding: 25px 0px 15px 0px;
+     margin: 0px;
+}
+.choose .cont .choose-box p{
+     font-size: 17px;
+     line-height: 30px;
+     margin: 0px;
+}
+.choose .cont a
+{
+     width: 190px;
+     margin: 0 auto;
+     background: #fff;
+     display: block;
+     border: #f9be20 solid 2px;
+     text-align: center;
+     padding: 10px 0px;
+     color: #0a0401 !important;
+     font-size: 20px;
+     margin-top: 40px;
+     transition: 0.5s;
+}
+.choose .cont a:hover
+{
+     background-color: #f9be20;
+}
+/* =============== WHY CHOOSE US START  END ================== */
+/* =============== SERVICE PROCESS START ========================= */
+.service 
+{
+     padding-top: 90px;
+}
+.service .titel
+{
+     padding-bottom: 60px ;
+}
+.service .service-box
+{
+     height: 90%;
+     padding: 30px 20px;
+     margin-bottom: 30px;
+     box-shadow: 5px 5px 10px #dadada  , -5px -5px 10px #dadada ;
+}
+.service .service-box h3
+{
+     padding: 20px 0px;
+}
+.service .service-box p
+{
+     font-size: 17px;
+     line-height: 28px;
+}
+/* =============== SERVICE PROCESS END ========================= */
+/* =============== OUR PRODUCTS start ================== */
+.our
+{
+     padding: 60px 0px;
+}
+.our p
+{
+     font-size: 22px;
+     margin-top: 17px;
+     margin-bottom: 0px;
+}
+
+/* =============== OUR PRODUCTS end ================== */
+/* ============= PRODUCT START =============== */
+.product-bg
+{
+     background-image: url(image/bg.jpeg);
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+}
+.product
+{
+     padding-top: 80px;
+     padding-bottom: 60px;
+     background-color: #f6f6f6c2;
+}
+.product-bg .prod-box
+{
+     padding: 20px 25px;
+     margin-bottom: 30px ;
+     background-color: #DDDDDD;
+}
+.product-bg .prod-box:hover
+{
+     background-color: #f9be20;
+}
+.product-bg .prod-box img
+{
+     width: 100%;
+}
+.product-bg .prod-box h3
+{
+     font-weight: 500;
+     font-size: 17px;
+     line-height: 20px;
+     padding-top: 15px;
+}
+.product-bg .prod-box p
+{
+     /* font-weight: 500; */
+     font-size: 22px;
+     line-height: 22px;
+}
+.product-bg .prod-box p:hover
+{
+     color: white;
+}
+/* ============= PRODUCT END =============================*/
+
+/* ================= What Clients Say? Start ============= */
+.what {
+     margin-top: 6px;
+     background-color: #f6f6f6c2;
+     padding-bottom: 40px;
+}
+.what h1 {
+     padding: 40px 0px ;
+}
+.what .textimonal {
+     padding: 20px 0px ;
+}
+.what .textimonal p {
+     font-size: 28px;
+
+}
+.what .textimonal p span {
+     font-size: 16px;
+}
+.what .textimonal .text p {
+     font-size: 17px;
+     padding: 40px 0px;
+     margin: 0px;
+}
+.what .textimonal .owl-carousel .owl-item img
+{
+
+     width: 15% !important;
+     height: 15% !important;
+}
+.owl-theme .owl-dots
+{
+     text-align: left !important;
+     position: absolute;
+     bottom: -10px;
+     left: -7px;
+   
+}
+.owl-theme .owl-dots .owl-dot span
+{
+     width: 25px !important;
+     height: 25px !important;
+     background-color: #000 !important;
+}
+.owl-theme .owl-dots .owl-dot.active span
+{
+     background-color: #f9be20 !important;
+}
+
+/* ================= What Clients Say? End ============= */
+/* ================= requst start ================= */
+.requst
+{
+     margin-top: 100px !important ;
+     padding: 40px 30px;
+     background-color: #f9be20;
+
+}
+.requst .h2
+{
+     color: white;
+}
+.requst p
+{
+     font-size: 22px;
+}
+.requst a
+{
+     background: #000;
+     border-radius: 50px;
+     max-width: 344px;
+     font-size: 31px;
+     line-height: 33px;
+     color: #fff !important;
+     padding: 16px 73px;
+     display: inline-block;
+     text-align: center;
+}
+
+/* ================= requst end ================= */
+/* ================= footer start =============== */
+.footer 
+{
+     padding-top: 70px;
+     background-color: #000;
+     color: white;
+}
+.footer .social li a
+{
+     width: 50px;
+     height: 50px;
+     /* background-color: #f9be20; */
+     display: block;
+     text-align: center;
+     line-height: 50px;
+     font-size: 18px;
+     border-radius: 50%;
+     transition: 0.3s;
+}
+.footer .social a:hover
+{
+     background-color: #181201;
+}
+.footer .content
+{
+     margin-top: 50px;
+     font-size: 17px;
+     /* font-weight: 500; */
+     line-height: 28px;
+}
+.footer .content h3{
+     padding-bottom: 30px;
+}
+.footer .content .link li a:hover
+{
+     color: #f9be20;
+}
+.footer .copyright
+{
+     margin-top: 70px;
+     padding: 20px 0px;
+     background-color: #FFC221;
+     color: #000;
+     font-size: 20px;
+
+}
+
+/* ================= footer end ================ */
+/* ============== ABOUT PAGE START ============= */
+.about-titel , .product-titel , .blog-titel , .contact-titel
+{
+     background-color: #FFC221;
+     color: black;
+}
+.about-titel , .blog-titel , .contact-titel , .product-titel  .titeltext 
+{
+     padding: 70px 0px ;
+     text-align: center;
+}
+.who
+{
+     padding-top: 90px;
+}
+.who .cont{
+     padding: 0px 15px;
+     margin: 14px 0px;
+     color: black;
+}
+.who .aboutbox img
+{
+     width: 100%;
+     height: 100%;
+}
+.who .aboutbox h2{
+     font-size: 30px;
+}
+.who .aboutbox p {
+     font-size: 18px;
+     line-height: 23px;
+     padding-top: 10px;
+     margin: 0px;
+}
+/* ============== ABOUT PAGE END =============== */
+/* ============== BLOG PAGE START ============== */
+.blog
+{
+     padding: 90px 0px;
+}
+.blog .blog-text
+{
+     text-align: center;
+     margin-bottom: 60px;
+     font-size: 18px;
+     color: black;
+}
+.blog .cont{
+     padding: 0px 15px;
+}
+.blog .newsbox 
+{
+     box-shadow: 2px 2px 10px gray;
+     margin-bottom: 30px;
+
+}
+.blog .newsbox .newsimg {
+     padding: 20px;
+     border-bottom: 1px solid rgb(209, 209, 209);
+}
+.blog .newsbox .newsimg img
+{
+     width: 95%;
+     height: 95%;
+     position: relative;
+}
+.blog .newsbox h3
+{
+     padding: 20px 20px 4px 20px;
+     font-size: 22px;
+}
+.blog .newsbox span{
+     color: #E61414;
+     margin-left: 20px;
+}
+.blog .newsbox p
+{
+     color: #7b7a7a;
+     line-height: 23px;
+     font-size: 17px;
+     padding: 7px 20px 20px 20px;
+}
+
+/* ============== BLOG PAGE END ================ */
+/* ============== CONTACT PAGE SATRT =========== */
+.contact
+{
+     margin-top: 50px;
+}
+.contact .main-form
+{
+     padding: 55px;
+}
+.contact .main-form .contact-form
+{
+     border: 2px solid #FFC221;
+     padding: 13px 20px;
+     margin-bottom: 30px;
+     display: block;
+     width: 100%;
+     border-radius: inherit;
+}
+.contact .main-form .textarea
+{
+
+     padding-top: 40px;
+}
+.contact-form:focus
+{
+     border: 2px solid #FFC221 !important;
+     box-shadow: inherit;
+}
+.contact-form:focus-visible
+{
+     border: 2px solid #ffc211;
+     box-shadow: inherit;
+}
+.contact .btn 
+{
+     border: none;
+}
+.contact .btn .send
+{
+     padding: 12px 0px;
+     margin: auto;
+     width: 212px;
+     display: block;
+     background-color: black;
+     color: #f9be20;
+     border: none;
+     font-size: 18px;
+}
+.contact .btn .send:hover
+{
+     background-color: #ffc211;
+     color: white;
+}
+/* ============== CONTACT PAGE END =========== */
+

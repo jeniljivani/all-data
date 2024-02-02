@@ -1,0 +1,77 @@
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+.link{
+  color: black;
+  text-decoration: none !important;
+}
+ .head{
+  display: flex;
+  align-items: center;
+}
+.head-text{
+  display: flex;
+  margin-left: 30px;
+}
+.head .head-text li{
+  padding: 0px 10px;
+  /* text-decoration: none; */
+  /* text-decoration: none; */
+}
+.head-name
+{
+  text-align: center;
+  margin: 10px 0px;
+  color: blue;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+table{
+  /* margin: 0px 20px; */
+  width: 95%;
+  margin: auto;
+  margin-bottom: 20px;
+  /* text-align: center; */
+}
+table .id{
+  text-align: center;
+}
+table th{
+  background-color: azure;
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+}
+table tr , tr td {
+  border: 2px solid rgb(67, 67, 67);
+}
+table .text{
+  /* text-align: left; */
+  padding-left: 3px;
+}
+.box{
+  display: flex;
+  justify-content: space-evenly;
+  /* margin: 5px; */
+  flex-wrap: wrap;
+}
+.card-box{
+  margin: 10px;
+  transition: 0.5s;
+  /* height: 500px; */
+}
+.card-box:hover{
+  box-shadow: 2px 2px 5px gray;
+}
+.card-box .cardimg{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+.card-body{position: relative;
+height: 250px;}
+
+.box .card-box .cardimgbox
+{position: absolute;
+  bottom: 20px;
+}

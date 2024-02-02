@@ -1,0 +1,38 @@
+.header input{
+  border: 2px solid rgb(85, 85, 85);
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(154, 154, 154);
+  color: white;
+}
+.header  button{
+  padding: 10px;
+  font-family: 'forte';
+  border-radius: 15px;
+  background-color: rgb(154, 154, 154);
+  color: white;
+  font-size: 15px;
+  margin: 0 10px;
+}
+.header a{
+  color: black !important;
+  font-size: 30px;
+  color: rgb(70, 70, 70) !important;
+}
+.header{
+  background-color: rgb(186, 186, 186);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+}
+.boxes Link h5,p{
+  color: black !important;
+  text-decoration-line:none !important ;
+}
+.content{
+  margin-top: 10% !important;
+}
+.content p{
+  text-align: justify;
+}

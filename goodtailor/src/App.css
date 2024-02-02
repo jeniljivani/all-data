@@ -1,0 +1,534 @@
+.contenor
+{
+  width: 1130px;
+  margin: auto;
+}
+.d-flex
+{
+  display: flex;
+}
+a{
+  display: block;
+  cursor: pointer;
+}
+.pd-t
+{
+  padding-top: 56px;
+  padding-bottom: 5px;
+}
+.pd-b
+{
+  padding-bottom: 16px;
+}
+.mg-b{
+  margin-bottom: 40px;
+}
+.w-33
+{
+  width: 33%;
+  /* padding: 0px 12px; */
+}
+.w-20{
+  width: 20%;
+}
+.w-50
+{
+  width: 50%;
+}
+ul li , li
+{
+  list-style-type: none;
+}
+/* ============================ TOP NEV START ==================== */
+
+.topnev
+{
+  background-color: #25252F;
+  padding: 15px 0px;
+  color: white;
+}
+.topnev .d-flex
+{
+  justify-content: space-between;
+}
+.topnev .leftnev li
+{
+  padding-right: 15px;
+}
+.topnev .rightnev li
+{
+  padding-left: 10px;
+}
+.header .d-flex
+{
+  justify-content: space-between;
+}
+.a-center
+{
+  align-items: center;
+}
+/* ============================ TOP NEV END ==================== */
+/* ========================== HEADER START ==================== */
+.header
+{
+  background-color: #25252F;
+  border-top: 2px solid white ;
+  padding: 10px 0px;
+  color: white;
+}
+
+.header .call
+{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px 20px;
+  border-radius: 30px;
+  outline: solid 2px white;
+  outline-offset:  4px;
+  font-size: 18px;
+}
+/* ========================== HEADER END ==================== */
+/* =========================== SLIDER START ================== */
+.slider img{
+  width: 100%;
+  height: 98vh;
+}
+.slider
+{
+  position: relative;
+}
+.slider .manu
+{
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px rgb(74, 74, 74),-2px 2px 5px rgb(74, 74, 74);
+  position: absolute;
+  top: 10px;
+  font-weight: 600;
+}
+.slider .manu li
+{
+  font-size: 18px;
+  padding-right: 20px;
+}
+.slidertext
+{
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  align-items: center;
+}
+.slidertext .btn
+{
+  background-color: #DE1D21;
+  padding: 14px 35px;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  outline: white 1px dashed;
+  outline-offset: -5px;
+}
+/* =========================== SLIDER END ================== */
+/* ======================= What we offer of Clients start ============ */
+.what , .our , .advans , .text , .about
+{
+  text-align: center;
+}
+.what h1 , .our h1 , .advans h1 , .text h1 , .about h1
+{
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+.what p , .our p , .advans .p , .text p , .about p , .prod p , .news .p
+{
+  width: 545px;
+  margin: auto;
+  font-size: 14px;
+  color: #888888;
+}
+.what .d-flex{
+  justify-content: space-between;
+}
+.what .whatsec
+{
+  width: 350px;
+  height: 400px;
+  text-align: center;
+  padding: 15px 20px;
+  margin: 0px 10px;
+}
+.what .whatsec img
+{
+  width: 100%;
+  height: 300px;
+  border-radius: 50%;
+}
+.what .whatsec hr
+{
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  margin-top: 30px;
+}
+.what .btn a
+{
+  width: 200px;
+  margin: auto;
+  background-color: #DE1D21;
+  padding: 14px 25px;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  outline: white 1px dashed;
+  outline-offset: -5px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+/* ======================= What we offer of Clients end  ============ */
+/* ================= Weekend start ================================= */
+
+.bacimg p
+{
+  font-size: 40px;
+  color: white;
+  margin-top: 60px;
+  padding-top: 56px;
+  text-align: center;
+}
+/* ================= Weekend end ===================*/
+/* ================== Our Works start ====================== */
+.our p
+{
+  margin-bottom: 40px;
+}
+.our .oursec
+{
+  justify-content: space-between;
+}
+.our .oursec .ourimg
+{
+  width: 370px;
+  height: 400px;
+}
+.our img{
+  width: 100%;
+  height: 100%;
+}
+/* ================== Our Works end ====================== */
+/* =================== Our Advantages start ========================= */
+.advans p
+{
+  margin-bottom: 40px;
+}
+.advans .advsec
+{
+  margin-top: 40px;
+}
+.advans .advsec .icon
+{
+  width: 70px;
+  margin: auto;
+  height: 70px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background-color: #F5F5F5;
+  position: relative;
+  color: #CC1A1E;
+}
+.advans .icon i{
+  font-size: 250%;
+  left: 15px;
+  top: 10px;
+  position: absolute;
+}
+.advans .cont h2
+{
+  font-size: 20px;
+}
+.advans .cont p
+{
+  text-align: left;
+  padding: 0px 12px;
+}
+/* =================== Our Advantages end ========================= */
+/* =================== Testimonials start ======================= */
+.test{
+  margin-top: 20px;
+  background-color: #F5F5F5;
+}
+.test .testimg{
+  width: 650px;
+  height: 600px;
+}
+.test .testimg img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.test .text
+{
+
+  padding-left: 32px ;
+  padding-bottom: 18px ;
+  /* margin-top: 20px;
+  margin-bottom: 40px; */
+}
+.test .text h2{
+  text-align: center;
+}
+.test .testslider 
+{
+  margin-top: 30px;
+  font-size: 30px;
+  color: #CC1A1E;
+}
+.text .testslider .textimg 
+{ 
+  width: 100px;
+  height:200px;
+  margin-top: 20px;
+  margin-left: 200px;
+  background-color: #CC1A1E;
+  position: relative;
+  
+}
+.text .testimg img{
+  width: 100%;
+  position: absolute;
+  background-color: #888888;
+  border-radius: 50%;
+  height: 100%;
+}
+
+/* =================== Testimonials end ======================= */
+/* =============== about us start ============================ */
+.about .text1 , .text2
+{
+  margin-top: 35px;
+  /* font-size: 18px; */
+  text-align: left;
+  padding: 0px 15px;
+  padding-bottom: 30px;
+
+}
+/* =============== about us end ============================ */
+
+/* ================== Company Policy start ==================== */
+.comany 
+{
+  color: white;
+}
+.comany .head
+{
+  padding-top: 56px;
+  margin-bottom: 40px;
+}
+.comany p
+{
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 50px  ;
+}
+.comany .combtn
+{
+  width: 200px;  
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px 5px;
+  /* padding-top: 15px; */
+  /* margin-top: 20px; */
+  text-align: center;
+  border-radius: 30px;
+  color: black;
+  outline: dashed 1px black;
+  outline-offset: -3px;
+}
+
+/* ================== Company Policy end==================== */
+/* ==================  Our Products start ===================*/
+.prod
+{
+  padding: 56px 0px;
+  margin: 10px 0px;
+  text-align: center;
+}
+.prod .prodsec
+{
+  padding: 40px 0px;
+  justify-content: space-between;
+}
+.prod .prodsec .s-1
+{
+  width: 250px;
+  height: 450px;
+  color: #989898;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px gray ,-1px 1px 5px gray;
+  border: 1px solid lightgray;
+}
+.prod .prodsec .prodimg
+{
+  width: 100%;
+  height: 250px;
+}
+.prod .prodimg img
+{
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.prod .prodsec .ret{
+  color: #CC1A1E;
+}
+.prod .prodsec .pri
+{
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+.prod .prodsec a{
+  width: 100px;
+  margin: auto;
+  padding: 8px 10px;
+  color: white;
+  background-color: #DE1D21;
+  border-radius: 30px;
+}
+.prod .see , .news .see
+{
+  width: 200px;
+  margin: auto;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 18px;
+  background-color: #CC1A1E;
+  color: white;
+  outline: dashed 1px white;
+  outline-offset: -5px;
+}
+
+/* ==================  Our Products end ===================*/
+/* ==================== our news start ====================== */
+.news
+{
+  padding: 56px 0px;
+  margin: 0px 0px;
+  text-align: center;
+  background-color: #F5F5F5;
+}
+.news .newssec
+{
+  padding: 40px 0px;
+  justify-content: space-between;
+  /* background-color: white; */
+}
+.news .newssec .se1
+{
+  width: 360px;
+  height: 550px;
+  background-color: white;
+  color: #989898;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+.news .newssec .newsimg
+{
+  width: 100%;
+  height: 300px;
+}
+.news .newsimg img
+{
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.news .newssec hr{
+  width: 100px;
+  height: 1px;
+  margin-top: 30px;
+  color: black;
+}
+.news .newssec h1
+{
+  color: black;
+}
+.news .newssec p
+{
+  color: black;
+  line-height: 150.5%;
+  padding: 0px 5px;
+}
+.news .newssec .date
+{
+  /* bottom: px; */
+  color: #888888;
+}
+
+/* ==================== our news end =====================*/
+/* ================= footer start ======================= */
+.footer
+{
+  border-top: 2px dashed gray;
+  padding: 56px 0px;
+  margin: 0px 0px;
+  text-align: center;
+  /* background-color: #F5F5F5; */
+}
+.footer .footsec 
+{
+  justify-content: space-between;
+  text-align: left; 
+  font-size: 14px;
+}
+.footer .footsec h3
+{
+  color: black;
+}
+.footer .footsec .sec1 , .sec2 , .sec3 , .sec4
+{
+  position: relative;
+}
+.footer .footsec hr{
+  width: 30px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  left: 0px;
+  top: 20%;
+  /* text-align: left; */
+}
+.footer .footsec .cont{
+  padding-top: 15px;
+}
+
+.footer .footsec .sec3 .ul
+{
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 15px;
+    color: black;
+}
+.footer .footsec .sec3 .ul li
+{
+  width: 50%;
+  padding-bottom: 10px;
+}
+.footer .footsec .sec4 .cont1
+{
+  margin-bottom: 10px;
+  color: #888888;
+}
+.footer .footsec .sec4 .cont1 a
+{
+  color: black;
+  padding-top: -10px;
+}
+
+
+
+/* =================== footer end ========================= */
